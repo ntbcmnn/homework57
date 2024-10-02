@@ -1,4 +1,4 @@
-import UsersApp from "./Containers/UsersApp/UsersApp.tsx";
+import UsersApp from "./Containers/UsersApp/UsersApp";
 
 const App = () => {
   return (

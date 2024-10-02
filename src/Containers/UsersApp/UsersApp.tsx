@@ -1,8 +1,9 @@
-import UsersForm from "../../Components/UsersForm/UsersForm.tsx";
-import Users from "../../Components/Users/Users.tsx";
 import { useState } from "react";
 import { IUser } from "../../../types";
-import ToolBar from "../../Components/ToolBar/ToolBar.tsx";
+
+import ToolBar from "../../Components/ToolBar/ToolBar";
+import UsersForm from "../../Components/UsersForm/UsersForm";
+import Users from "../../Components/Users/Users";
 
 const UsersApp = () => {
   const [users, setUsers] = useState<IUser[]>([

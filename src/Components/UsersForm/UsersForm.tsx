@@ -1,5 +1,4 @@
 import React, { ChangeEvent, useState } from "react";
-
 import { IUser, IUserMutation } from "../../../types";
 
 interface Props {
