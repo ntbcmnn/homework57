@@ -1,5 +1,11 @@
+import UsersApp from "./Containers/UsersApp/UsersApp.tsx";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <UsersApp />
+    </>
+  );
 };
 
 export default App;
